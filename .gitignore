@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+
+# Datasets and large data folders
+data/
+datasets/
+temp/
+
+# Model weights and large binaries
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.zip
+*.tar.gz
+*.7z
+
+# Output files
+*.csv
+*.log
+*.json
+!metadata.json # Example exception if needed, but for now generic
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
