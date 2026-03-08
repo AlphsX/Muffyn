@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Muffyn 🧁🐕
+# Chifyn 🧁🐕
 
 **State-of-the-Art Deep Learning Classifier for Muffin vs Chihuahua Challenge**
 
@@ -28,7 +28,7 @@ Built with cutting-edge Vision Transformers and CNNs for maximum accuracy
 
 ---
 
-**Muffyn provides the fastest path from raw images to production-grade predictions**, offering hybrid ViT+CNN ensemble, 12-pass saccadic TTA, and comprehensive training pipeline with Mixup/CutMix augmentation.
+**Chifyn provides the fastest path from raw images to production-grade predictions**, offering hybrid ViT+CNN ensemble, 12-pass saccadic TTA, and comprehensive training pipeline with Mixup/CutMix augmentation.
 
 The [Muffin vs Chihuahua Challenge](https://www.kaggle.com) is a notoriously difficult binary classification problem due to visual similarity. This solution achieves state-of-the-art results through architectural innovation and advanced training techniques.
 
@@ -46,7 +46,7 @@ predictions = ensemble_predict([model_swin, model_convnext],
 ## 📋 Table of Contents
 
 
-- [What is Muffyn?](#what-is-muffyn)
+- [What is Chifyn?](#what-is-chifyn)
 - [Why This Implementation?](#why-this-implementation)
 - [Features](#features)
 - [Quick Start](#quick-start)
@@ -64,9 +64,9 @@ predictions = ensemble_predict([model_swin, model_convnext],
 - [Contributing](#contributing)
 - [Developer Information](#developer-information)
 
-## What is Muffyn?
+## What is Chifyn?
 
-Muffyn is a state-of-the-art deep learning solution for the Muffin vs Chihuahua binary classification challenge. The project combines:
+Chifyn is a state-of-the-art deep learning solution for the Muffin vs Chihuahua binary classification challenge. The project combines:
 
 - **Hybrid Architecture**: Vision Transformer (Swin-V2-Base) + Modern CNN (ConvNeXt-Base)
 - **Advanced Training**: Two-phase fine-tuning with Mixup/CutMix augmentation
@@ -176,8 +176,8 @@ This solution handles all the complex deep learning details while providing a cl
 
 ```bash
 # Clone the repository
-git clone https://github.com/AlphsX/Muffyn.git
-cd muffyn
+git clone https://github.com/AlphsX/Chifyn.git
+cd chifyn
 
 # Create virtual environment
 python -m venv venv
@@ -663,7 +663,7 @@ Total: XXX images
 ## Project Structure
 
 ```text
-muffyn/
+chifyn/
 ├── data/
 │   ├── train/                          # Training data
 │   │   ├── chihuahua/                  # Chihuahua images
@@ -889,8 +889,8 @@ Contributions are welcome! This project follows standard open-source practices.
 
 1. **Fork and Clone**
 ```bash
-git clone https://github.com/AlphsX/Muffyn.git
-cd muffyn
+git clone https://github.com/AlphsX/Chifyn.git
+cd chifyn
 ```
 
 2. **Create Branch**
@@ -1125,7 +1125,7 @@ Committed to creating high-quality educational resources that bridge the gap bet
 
 - **GitHub**: [@AlphsX](https://github.com/AlphsX)
 - **YouTube**: [@AccioLabsX](https://www.youtube.com/channel/UCNn7PEFI65qIkR2bbK3yveQ)
-- **Project Repository**: [github.com/AlphsX/muffyn](https://github.com/AlphsX/Muffyn.git)
+- **Project Repository**: [github.com/AlphsX/chifyn](https://github.com/AlphsX/Chifyn.git)
 
 ### Acknowledgments
 
